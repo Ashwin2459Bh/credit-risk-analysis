@@ -134,7 +134,7 @@ model = pickle.load(open("models/trained_model.pkl", "rb"))
 ## 9. Author
 
 Ashwindaniel 
-Contact: yashwindaniel2000@gmail.com  
+Contact: ashwindaniel2000@gmail.com  
 
 
 ***
