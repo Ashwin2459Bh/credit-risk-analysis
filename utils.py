@@ -22,4 +22,4 @@ df.to_csv(path, index=False)
 def load_data_if_present(path="data/dataset.csv"):
 if os.path.exists(path):
 return pd.read_csv(path)
-return None# full original content omitted for zip demo
+return None
