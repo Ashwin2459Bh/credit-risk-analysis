@@ -30,43 +30,24 @@ Common features include:
 - 1 → High Risk
 - 0 → Low Risk
 
-***
-
-## 3. Project Structure
-
-```
-project-folder/
-│
-├── data/
-│   └── credit_risk.csv
-│
-├── notebooks/
-│   └── credit_risk_analysis.ipynb
-│
-├── models/
-│   └── trained_model.pkl
-│
-├── README.md
-└── requirements.txt
-```
 
 ***
 
-## 4. Methodology
+## 3. Methodology
 
-### 4.1 Data Preprocessing
+### 3.1 Data Preprocessing
 - Handled missing values
 - Encoded categorical variables
 - Scaled numerical features
 - Removed outliers
 - Balanced dataset using oversampling/undersampling (if used)
 
-### 4.2 Exploratory Data Analysis (EDA)
+### 3.2 Exploratory Data Analysis (EDA)
 - Feature distributions
 - Correlation heatmaps
 - Risk patterns across variables
 
-### 4.3 Model Development
+### 3.3 Model Development
 Tested machine learning models such as:
 - Logistic Regression
 - Decision Tree
@@ -74,7 +55,7 @@ Tested machine learning models such as:
 - XGBoost
 - Support Vector Machine
 
-### 4.4 Model Evaluation
+### 3.4 Model Evaluation
 Performance measured using:
 - Accuracy
 - Precision, Recall
@@ -83,7 +64,7 @@ Performance measured using:
 
 ***
 
-## 5. Results Summary
+## 4. Results Summary
 
 - **Best model:** Random Forest / XGBoost / (your chosen model)
 - **Achieved accuracy:** XX%
@@ -92,7 +73,7 @@ Performance measured using:
 
 ***
 
-## 6. How to Run the Project
+## 5. How to Run the Project
 
 **Step 1:** Install dependencies  
 ```bash
@@ -112,7 +93,7 @@ model = pickle.load(open("models/trained_model.pkl", "rb"))
 
 ***
 
-## 7. Technologies Used
+## 6. Technologies Used
 
 - Python
 - Pandas, NumPy
@@ -122,7 +103,7 @@ model = pickle.load(open("models/trained_model.pkl", "rb"))
 
 ***
 
-## 8. Future Improvements
+## 7. Future Improvements
 
 - Deploy model using Flask/Streamlit
 - Add hyperparameter tuning
@@ -131,7 +112,7 @@ model = pickle.load(open("models/trained_model.pkl", "rb"))
 
 ***
 
-## 9. Author
+## 8. Author
 
 Ashwindaniel 
 Contact: ashwindaniel2000@gmail.com  
